@@ -1,0 +1,46 @@
+# Github 사용법
+
+## Commit 
+  하나 이상의 file 에 변경한 내용을 저장할 때마다 새로운 commit이 생성된다. 
+  ex) git commit -m "first mommit"
+
+
+## branch 
+  새 코드의 테스트나 새 기능을 넣어 사용해보기 위해 사용할 수 있는 따로 떨어진 독립적인 commit을 말한다. 
+  ex) git branch -M main 
+
+
+## master branch
+  새 프로젝트를 만들 때 마다 생성되는 기본 브랜치. 작업이 최종적으로 마무리되는 브랜치. 가장 메인
+  
+## merge
+  뜻 그대로 병합을 의미. 하나의 branch의 작업을 다른 branch에 통합하는 것을 의미한다. 
+  주로 feature branch 를 master branch로 병합한다.
+
+
+## pull request
+
+  협업할 때, 추가로 개발 가능한 기능이나 수정하고 싶은 작업에 대한 논의를 위해 이용하는, 일종의 토론실
+  원래는 다른 사람의 리뷰를 요청하고 마스터가 병합하도록 요청하기 위해 사용했다고 한다. 
+
+
+## wiki
+  링크들간의 연결해 간단한 웹페이지를 만드는 방법. 프로젝트의 문서작성에 자주 이용한다.
+
+
+## clone
+  복제를 의미한다. 로컬 작업을 위해 복사복을 github에서 다운로드 한다. repository를 사용자의 컴퓨터로 복사하는 과정
+
+
+## fork
+  남이 만든 오픈소스 등을 직접변경하고 싶다면 먼저 내 계정에 그 프롲게트의 복사본을 만든 다음 이를 수정하는 과정 
+
+
+
+## 원격 저장소의 연결 제거 
+   $ git remote remove origin 
+
+## 원격 저장소 이동
+   $ git push origin main
+   
+##
